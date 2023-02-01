@@ -77,10 +77,17 @@ $(document).ready(function () {
   -----------------------------------------------*/
   $(function () {
     jQuery(document).ready(function () {
-      $("#home").backstretch(["images/home-bg-slider-img1.jpg", "images/home-bg-slider-img2.jpg"], {
-        duration: 500,
-        fade: 750,
-      });
+      $("#home").backstretch(
+        [
+          "images/oto_8banh/home_slider1.jpg",
+          "images/oto_8banh/home_slider2.jpg",
+          "images/oto_8banh/home_slider3.jpg",
+        ],
+        {
+          duration: 1000,
+          fade: 750,
+        }
+      );
     });
   });
 
